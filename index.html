@@ -35,10 +35,8 @@
 
   </script>
 
-  <!-- Titillium Font -->
-
-  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700' rel='stylesheet' type='text/css'>
-
+  <!-- Montserrat Font -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 
   <body>
@@ -103,7 +101,9 @@
       <article class="content">
         <h2>Products Designed For A Purpose</h2>
         <p> We build platforms that integrate your data from any source, at any scale, in the most secure way. We're here to make people better at their most important work by creating interactive human-driven, machine-assisted analytics.</p>
-        <p class="more"><a href="/solutions/" class="">Our Products »</a></P>
+        <section>
+          <button id="js-trigger-overlay" type="button" onclick="location.href='/solutions/'">OUR PRODUCTS</button>
+        </section>
       </article>
     </div>
   </div>
@@ -115,28 +115,36 @@
       <article class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 tblock">
         <h1>Data Engineers</h1>
         <p>We are engineers on a mission: create products that transform the way you use your data. We believe that with the right technology and good data, you can solve real-life problems and change the world. For the better. </p>
-        <p class="more"><a href="/about/" class="">This is our story »</a></p>
+        <small>
+          <button id="js-trigger-overlay" type="button" onclick="location.href='/about/'">THIS IS OUR STORY</button>
+        </small>
       </article>
     </div>
     <article class="third">
       <div class="preview preview1">
         <h3>Custom made Solutions</h3>
         <p>Proven technology that can be deployed today, for operationnal results in weeks, not years.</p>
-        <p class="more"><a href="/solutions/" class="">What we do.»</a></p>
+        <small>
+          <button id="js-trigger-overlay" type="button" onclick="location.href='/solutions/'">WHAT WE DO</button>
+        </small>
       </div>
     </article>
     <article class="third">
       <div class="preview2 preview">
         <h3>Interactive Data Platforms</h3>
         <p>From the back-end architecture to the user interface, we build tools able to process, secure and analyse your data. You will be able to ask harder questions, get better answers and make better decisions.</p>
-        <p class="more"><a href="/technology/" class="">How we do it.»</a></p>
+        <small>
+          <button id="js-trigger-overlay" type="button" onclick="location.href='/technology/'">HOW WE DO IT</button>
+        </small>
       </div>
     </article>
     <article class="third">
       <div class="preview3 preview">
         <h3>They trust BuilData</h3>
         <p>You have data and a deep understanding of your business and the problems you face. We have an engineering mindset and meet the problems where they live, by establishing a true partnership and working directly in the field with our customers.</p>
-        <p class="more"><a href="/partners/" class="">Our partners.»</a></p>
+        <small>
+          <button id="js-trigger-overlay" type="button" onclick="location.href='/partners/'">OUR PARTNERS</button>
+        </small>
       </div>
     </article>
   </div>
