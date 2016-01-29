@@ -2,10 +2,4 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproof ./_site --disable-external
-
-cd out
-git init
-git add .
-git commit -m "Deployed to Github Pages"
-git subtree push --prefix _site "https://${GH_TOKEN}@${GH_REF}" gh-pages > /dev/null 2>&1
+bundle exec htmlproof ./_site --disable-external --allow_hash_href
