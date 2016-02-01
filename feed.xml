@@ -6,134 +6,134 @@
 </description>
     <link>http://buildata.net/</link>
     <atom:link href="http://buildata.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Feb 2016 17:47:44 +0100</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2016 17:47:44 +0100</lastBuildDate>
+    <pubDate>Mon, 01 Feb 2016 17:48:29 +0100</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 17:48:29 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
+        <title>Transcending Borders8</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://buildata.net/news/2016/02/01/transcending-borders8.html</link>
+        <guid isPermaLink="true">http://buildata.net/news/2016/02/01/transcending-borders8.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Transcending Borders7</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://buildata.net/news/2016/02/01/transcending-borders7.html</link>
+        <guid isPermaLink="true">http://buildata.net/news/2016/02/01/transcending-borders7.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Transcending Borders6</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://buildata.net/news/2016/02/01/transcending-borders6.html</link>
+        <guid isPermaLink="true">http://buildata.net/news/2016/02/01/transcending-borders6.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Transcending Borders5</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://buildata.net/news/2016/02/01/transcending-borders5.html</link>
+        <guid isPermaLink="true">http://buildata.net/news/2016/02/01/transcending-borders5.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Transcending Borders4</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://buildata.net/news/2016/02/01/transcending-borders4.html</link>
+        <guid isPermaLink="true">http://buildata.net/news/2016/02/01/transcending-borders4.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Transcending Borders3</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://buildata.net/news/2016/02/01/transcending-borders3.html</link>
+        <guid isPermaLink="true">http://buildata.net/news/2016/02/01/transcending-borders3.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Transcending Borders2</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://buildata.net/news/2016/02/01/transcending-borders2.html</link>
+        <guid isPermaLink="true">http://buildata.net/news/2016/02/01/transcending-borders2.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Transcending Borders1</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://buildata.net/news/2016/02/01/transcending-borders1.html</link>
+        <guid isPermaLink="true">http://buildata.net/news/2016/02/01/transcending-borders1.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Transcending Borders</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://buildata.net/news/2016/02/01/transcending-borders.html</link>
+        <guid isPermaLink="true">http://buildata.net/news/2016/02/01/transcending-borders.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
         <title>Sql</title>
-        <description>&lt;p&gt;relational database management system&lt;/p&gt;
+        <description>&lt;p&gt;SQL Server&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
         <link>http://buildata.net/technology/2015/12/16/sql.html</link>
         <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/sql.html</guid>
-        
-        
-        <category>technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Spark</title>
-        <description>&lt;p&gt;distributed machine learning framework&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/spark.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/spark.html</guid>
-        
-        
-        <category>technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Scikit</title>
-        <description>&lt;p&gt;machine learning library for Python&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/scikit.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/scikit.html</guid>
-        
-        
-        <category>technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Rstudio</title>
-        <description>&lt;p&gt;programming language and software environment for statistical computing and graphics&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/rstudio.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/rstudio.html</guid>
-        
-        
-        <category>technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Python</title>
-        <description>&lt;p&gt;General-purpose, high-level programming language.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/python.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/python.html</guid>
-        
-        
-        <category>technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Oracle</title>
-        <description>&lt;p&gt;object-relational database management system&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/oracle.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/oracle.html</guid>
-        
-        
-        <category>technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Nodejs</title>
-        <description>&lt;p&gt;cross-platform runtime environment for server-side web applications&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/nodejs.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/nodejs.html</guid>
-        
-        
-        <category>technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Mongodb</title>
-        <description>&lt;p&gt;NoSQL cross-platform document-oriented database.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/mongodb.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/mongodb.html</guid>
-        
-        
-        <category>technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Jupyter</title>
-        <description>&lt;p&gt;command shell for interactive computing in multiple programming languages&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/jupyter.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/jupyter.html</guid>
-        
-        
-        <category>technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Hive</title>
-        <description>&lt;p&gt;Data warehouse infrastructure built on top of Hadoop&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/hive.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/hive.html</guid>
         
         
         <category>technology</category>

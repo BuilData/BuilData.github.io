@@ -12,6 +12,7 @@ $( document ).ready(function() {
         var fontSize = options.maxFontPixels;
         var ourText = this.find("p:first");
         var parent = this.parent();
+        //var maxWidth = parent.width();
         var maxWidth = parent.width();
         var maxHeight = maxWidth * options.ratio;
         var textHeight;
@@ -30,7 +31,18 @@ $( document ).ready(function() {
 $(document).ready(function() {
 
     $('.text-portrait').each(function(){
-      $(this).textfill({ maxFontPixels: 36 , ratio: 1.25});
+      $(this).textfill({ maxFontPixels: 36 , ratio: 1});
+    });
+
+    $('.text-circle').each(function(){
+      $(this).textfill({ maxFontPixels: 36 , ratio: 1});
+    });
+});
+
+$(window).resize(function() {
+
+    $('.text-portrait').each(function(){
+      $(this).textfill({ maxFontPixels: 36 , ratio: 1});
     });
 
     $('.text-circle').each(function(){

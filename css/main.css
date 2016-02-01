@@ -328,7 +328,7 @@ div.dynamic:hover span.text-content {
 div.dynamic-image {
   content: "";
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -350,10 +350,18 @@ img.dynamic-image {
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
 
-.rounded {
+.lightrounded {
   border-radius: 10%;
   -webkit-border-radius: 10%;
   -moz-border-radius: 10%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+
+.rounded {
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
@@ -362,7 +370,7 @@ div .dynamic {
   position: relative; }
 
 .portrait {
-  padding-bottom: 125%; }
+  padding-bottom: 100%; }
 
 .techno {
   padding-bottom: 100%; }
@@ -751,7 +759,19 @@ small button:hover {
   text-align: center; }
 
 .technology .container {
-  padding-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.news {
+  padding-bottom: 20px; }
+  .news h3 {
+    text-align: center;
+    padding-bottom: 20px; }
+
+.technology .first {
+  padding-top: 50px; }
+
+.technology .last {
   padding-bottom: 50px; }
 
 .technology .content {
