@@ -6,13 +6,13 @@
 </description>
     <link>http://buildata.net/</link>
     <atom:link href="http://buildata.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Jan 2016 16:16:39 +0100</pubDate>
-    <lastBuildDate>Fri, 29 Jan 2016 16:16:39 +0100</lastBuildDate>
+    <pubDate>Mon, 01 Feb 2016 16:12:20 +0100</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 16:12:20 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Sql</title>
-        <description>&lt;p&gt;relational database management system&lt;/p&gt;
+        <description>&lt;p&gt;SQL Server&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
         <link>http://buildata.net/technology/2015/12/16/sql.html</link>
@@ -24,25 +24,12 @@
       </item>
     
       <item>
-        <title>Spark</title>
-        <description>&lt;p&gt;distributed machine learning framework&lt;/p&gt;
+        <title>Scala</title>
+        <description>&lt;p&gt;Scala.&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/spark.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/spark.html</guid>
-        
-        
-        <category>technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Scikit</title>
-        <description>&lt;p&gt;machine learning library for Python&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/scikit.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/scikit.html</guid>
+        <link>http://buildata.net/technology/2015/12/16/scala.html</link>
+        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/scala.html</guid>
         
         
         <category>technology</category>
@@ -51,7 +38,7 @@
     
       <item>
         <title>Rstudio</title>
-        <description>&lt;p&gt;programming language and software environment for statistical computing and graphics&lt;/p&gt;
+        <description>&lt;p&gt;R&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
         <link>http://buildata.net/technology/2015/12/16/rstudio.html</link>
@@ -64,7 +51,7 @@
     
       <item>
         <title>Python</title>
-        <description>&lt;p&gt;General-purpose, high-level programming language.&lt;/p&gt;
+        <description>&lt;p&gt;Python&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
         <link>http://buildata.net/technology/2015/12/16/python.html</link>
@@ -77,7 +64,7 @@
     
       <item>
         <title>Oracle</title>
-        <description>&lt;p&gt;object-relational database management system&lt;/p&gt;
+        <description>&lt;p&gt;Oracle&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
         <link>http://buildata.net/technology/2015/12/16/oracle.html</link>
@@ -90,7 +77,7 @@
     
       <item>
         <title>Nodejs</title>
-        <description>&lt;p&gt;cross-platform runtime environment for server-side web applications&lt;/p&gt;
+        <description>&lt;p&gt;Nodejs&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
         <link>http://buildata.net/technology/2015/12/16/nodejs.html</link>
@@ -102,8 +89,21 @@
       </item>
     
       <item>
+        <title>Mysql</title>
+        <description>&lt;p&gt;MySql&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
+        <link>http://buildata.net/technology/2015/12/16/mySql.html</link>
+        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/mySql.html</guid>
+        
+        
+        <category>technology</category>
+        
+      </item>
+    
+      <item>
         <title>Mongodb</title>
-        <description>&lt;p&gt;NoSQL cross-platform document-oriented database.&lt;/p&gt;
+        <description>&lt;p&gt;MongoDB&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
         <link>http://buildata.net/technology/2015/12/16/mongodb.html</link>
@@ -115,12 +115,12 @@
       </item>
     
       <item>
-        <title>Jupyter</title>
-        <description>&lt;p&gt;command shell for interactive computing in multiple programming languages&lt;/p&gt;
+        <title>Java</title>
+        <description>&lt;p&gt;Java&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/jupyter.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/jupyter.html</guid>
+        <link>http://buildata.net/technology/2015/12/16/java.html</link>
+        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/java.html</guid>
         
         
         <category>technology</category>
@@ -128,12 +128,12 @@
       </item>
     
       <item>
-        <title>Hive</title>
-        <description>&lt;p&gt;Data warehouse infrastructure built on top of Hadoop&lt;/p&gt;
+        <title>Hadoop</title>
+        <description>&lt;p&gt;Hadoop&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://buildata.net/technology/2015/12/16/hive.html</link>
-        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/hive.html</guid>
+        <link>http://buildata.net/technology/2015/12/16/hadoop.html</link>
+        <guid isPermaLink="true">http://buildata.net/technology/2015/12/16/hadoop.html</guid>
         
         
         <category>technology</category>
