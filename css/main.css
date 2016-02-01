@@ -762,6 +762,12 @@ small button:hover {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+.news {
+  padding-bottom: 20px; }
+  .news h3 {
+    text-align: center;
+    padding-bottom: 20px; }
+
 .technology .first {
   padding-top: 50px; }
 
