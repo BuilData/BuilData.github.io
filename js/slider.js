@@ -3,7 +3,9 @@ $( document ).ready(function() {
       adaptiveHeight: true,
       mode: 'fade',
       captions: true,
-      preloadImages: 'all'
+      preloadImages: 'all',
+      auto: true,
+      speed:200
     });
 });
 

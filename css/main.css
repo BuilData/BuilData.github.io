@@ -236,16 +236,14 @@ pre {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px;
+  padding: 10px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #606c88;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #606c88, #3f4c6b);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #606c88, #3f4c6b);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
   /* IE6-9 */ }
 
@@ -258,9 +256,10 @@ pre {
   background-repeat: no-repeat;
   background-position: left top;
   padding-left: 40px;
-  min-height: 85px;
+  min-height: 40px;
   background-position: 5px 5px;
   margin-left: 0px;
+  margin-right: 0px;
   background-image: url("../img/icons/contactMail.svg"); }
 
 .contact-list,
@@ -425,6 +424,7 @@ section button:hover {
 
 small button {
   margin: 0 auto;
+  margin-top: 20px;
   font-size: 100%;
   padding: 0.75rem 1.5rem;
   display: block;
@@ -439,6 +439,26 @@ small button {
   transition: all 0.3s ease-in-out; }
 
 small button:hover {
+  background-color: transparent;
+  color: #000000;
+  border-color: #000000; }
+
+big button {
+  margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 3.5rem;
+  display: block;
+  background-color: transparent;
+  border: 1px solid #B8B8B8;
+  color: #B8B8B8;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+big button:hover {
   background-color: transparent;
   color: #000000;
   border-color: #000000; }
@@ -511,10 +531,12 @@ small button:hover {
  * Main block.
  */
 .main {
-  padding: 0px; }
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .main .block {
-  padding: 0px; }
+  padding: 30px; }
 
 .main .secondary-heading {
   text-align: center; }
@@ -567,7 +589,8 @@ small button:hover {
   line-height: 1.4em;
   box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
   position: relative;
-  text-align: center; }
+  text-align: center;
+  min-height: 1100px; }
 
 .solutions .content {
   padding: 20px;
@@ -604,7 +627,8 @@ small button:hover {
   line-height: 1.4em;
   box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
   position: relative;
-  text-align: center; }
+  text-align: center;
+  min-height: 1000px; }
 
 .team .content {
   padding: 20px;
@@ -693,7 +717,8 @@ small button:hover {
   line-height: 1.4em;
   box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
   position: relative;
-  text-align: center; }
+  text-align: center;
+  min-height: 800px; }
 
 .partners .container {
   padding-top: 100px;
@@ -742,7 +767,6 @@ small button:hover {
   z-index: 1; }
 
 .padded {
-  padding-top: 20px;
   padding-bottom: 20px; }
 
 /**
@@ -777,6 +801,91 @@ small button:hover {
 .technology .content {
   padding: 15px; }
 
+.backgroundBottom {
+  background: #ECE9E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ECE9E6, #FFFFFF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ECE9E6, #FFFFFF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+/**
+ * batman block
+ */
+.batman {
+  padding: 40px;
+  width: 100%;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #000000;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  position: relative;
+  text-align: center;
+  background: #ECE9E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ECE9E6, #FFFFFF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ECE9E6, #FFFFFF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.batman h2 {
+  font-size: 2.1em;
+  font-weight: 300;
+  margin: 0.7em 0 0.4em; }
+
+.batman p {
+  font-size: 1em;
+  margin: .5em 0 1em; }
+
+.batman .content {
+  padding-left: 250px;
+  padding-right: 250px; }
+
+@media screen and (min-width: 1440px) {
+  .batman .content {
+    padding-left: 330px;
+    padding-right: 330px; }
+
+  .batman p {
+    font-size: 1.2em; } }
+@media screen and (max-width: 1440px) {
+  .batman .content {
+    padding-left: 280px;
+    padding-right: 280px; } }
+@media screen and (max-width: 1100px) {
+  .batman .content {
+    padding-left: 200px;
+    padding-right: 200px; } }
+@media screen and (max-width: 960px) {
+  .batman .content {
+    padding-left: 150px;
+    padding-right: 150px; } }
+@media screen and (max-width: 700px) {
+  .batman .content {
+    padding-left: 75px;
+    padding-right: 75px; }
+
+  .batman p {
+    font-size: .9em; }
+
+  .batman h2 {
+    font-size: 2em; } }
+@media screen and (max-width: 568px) {
+  .batman .content {
+    padding-left: 50px;
+    padding-right: 50px; }
+
+  .batman p {
+    font-size: .9em; }
+
+  .batman h2 {
+    font-size: 2em; } }
+@media screen and (max-width: 320px) {
+  .batman .content {
+    padding: 0px; }
+
+  .batman p {
+    font-size: .5em; } }
 /**
  * Syntax highlighting styles
  */
