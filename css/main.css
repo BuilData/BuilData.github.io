@@ -390,17 +390,17 @@ div .dynamic {
   z-index: -1;
   overflow: hidden;
   margin: -5px -0px -0px -5px;
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px); }
+  -webkit-filter: blur(0.2px);
+  -moz-filter: blur(0.5px);
+  -o-filter: blur(0.5px);
+  -ms-filter: blur(0.5px);
+  filter: blur(0.5px); }
 
 .background-container {
   overflow: hidden; }
 
 .background2 {
-  background-image: url("../img/backgrounds/outilRecherche2.jpg"); }
+  background-image: url("../img/backgrounds/background2Cropped.png"); }
 
 section button {
   margin: 0 auto;
