@@ -474,7 +474,14 @@ big button:hover {
   line-height: 1.4em;
   box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
   position: relative;
-  text-align: center; }
+  text-align: center;
+  min-height: 1100px; }
+  @media screen and (max-width: 800px) {
+    .hero {
+      min-height: 0px; } }
+  @media screen and (max-width: 600px) {
+    .hero {
+      min-height: 0px; } }
 
 .hero h2 {
   font-size: 2.1em;
@@ -486,7 +493,7 @@ big button:hover {
   margin: .5em 0 1em; }
 
 .hero .content {
-  padding: 100px; }
+  padding: 200px; }
 
 @media screen and (max-width: 800px) {
   .hero .content {
@@ -612,17 +619,19 @@ big button:hover {
   min-height: 1000px; }
   @media screen and (max-width: 800px) {
     .team {
-      min-height: 500px; } }
+      min-height: 500px; }
+      .team .container {
+        padding-top: 150px; } }
   @media screen and (max-width: 600px) {
-    .team {
-      min-height: 0px; } }
+    .team .container {
+      padding-top: 50px; } }
 
 .team .content {
   padding: 20px;
   height: 100%; }
 
 .team .container {
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
