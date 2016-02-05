@@ -237,12 +237,12 @@ pre {
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 10px;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
-  background: #606c88;
+  /* UiGradient Pinot Noir */
+  background: #4b6cb7;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #606c88, #3f4c6b);
+  background: -webkit-linear-gradient(to left, #4b6cb7, #182848);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #606c88, #3f4c6b);
+  background: linear-gradient(to left, #4b6cb7, #182848);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
   /* IE6-9 */ }
@@ -269,7 +269,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282; }
+  color: #111; }
 
 .footer-col {
   float: left;
@@ -823,9 +823,9 @@ big button:hover {
   text-align: center;
   background: #ECE9E6;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #ECE9E6, #FFFFFF);
+  background: -webkit-linear-gradient(to bottom, #ECE9E6, #FFFFFF);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #ECE9E6, #FFFFFF);
+  background: linear-gradient(to bottom, #ECE9E6, #FFFFFF);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .batman h2 {
