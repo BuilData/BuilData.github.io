@@ -760,6 +760,9 @@ big button:hover {
       margin-left: 100px !important;
       margin-right: 100px !important; } }
 
+.partners .four-fifths {
+  margin-bottom: 20; }
+
 .partners p {
   font-size: 0.7em; }
 
@@ -769,7 +772,7 @@ big button:hover {
 
 .partners .wrapper {
   position: relative;
-  padding: 0;
+  padding: 10;
   display: block; }
 
 .partners .text {
