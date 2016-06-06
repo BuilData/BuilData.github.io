@@ -41,6 +41,15 @@
 
   <!-- Fjalla One Font -->
   <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+  <!-- Google Maps for BuilData's location -->
+  <style>
+    #map {
+      width: 500px;
+      height: 400px;
+      margin-left: 70px;
+    }
+   </style>
 </head>
 
   <body>
@@ -144,6 +153,26 @@
         <big>
           <button id="js-trigger-overlay" type="button" onclick="location.href='/partners/'">OUR PARTNERS</button>
         </big>
+    </article>
+    <article class="whole">
+        <h2>Get In Touch</h2>
+        <p>you can find us at CentraleSupelec Incubator near Paris:</p>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+            var mapDiv = document.getElementById('map');
+            var map = new google.maps.Map(mapDiv, {
+              center: {lat: 48.763949, lng: 2.286753},
+              zoom: 8
+            });
+            var marker = new google.maps.Marker({
+              position: {lat: 48.763949, lng: 2.286753},
+              map: map
+            });
+          }
+          </script>
+          <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer>
+          </script>
     </article>
   </div>
 </section>
