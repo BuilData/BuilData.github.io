@@ -42,14 +42,7 @@
   <!-- Fjalla One Font -->
   <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 
-  <!-- Google Maps for BuilData's location -->
-  <style>
-    #map {
-      width: 500px;
-      height: 400px;
-      margin-left: 70px;
-    }
-   </style>
+
 </head>
 
   <body>
@@ -157,7 +150,11 @@
     <article class="whole">
         <h2>Get In Touch</h2>
         <p>you can find us at CentraleSupelec Incubator near Paris:</p>
-        <div id="map"></div>
+    </article>
+  </article>
+        <div class="map" id="map">
+          <iframe frameborder="0" style="border :0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCTsLXBhlOMPhaM4EJK-GdrSh05HZS59SY"></iframe>
+        </div>
         <script>
             function initMap() {
             var mapDiv = document.getElementById('map');
@@ -173,7 +170,6 @@
           </script>
           <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer>
           </script>
-    </article>
   </div>
 </section>
 

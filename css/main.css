@@ -298,8 +298,12 @@ pre {
     width: -webkit-calc(100% - (0px / 2));
     width: calc(100% - (0px / 2)); } }
 @media screen and (max-width: 600px) {
-  .footer-col {
-    float: none;
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (0px / 2));
+    width: calc(50% - (0px / 2)); }
+
+  .footer-col-3 {
     width: -webkit-calc(100% - (0px / 2));
     width: calc(100% - (0px / 2)); } }
 /**
@@ -512,7 +516,7 @@ big button:hover {
   .hero .content {
     padding: 0px;
     padding-bottom: 20px;
-    padding-top: 15px; }
+    padding-top: 30px; }
 
   .hero p {
     font-size: 1.2em; } }
@@ -884,21 +888,20 @@ big button:hover {
     font-size: 1.5em;
     font-weight: 300;
     margin: 0.7em 0 0.4em; } }
-@media screen and (max-width: 600px) {
-  .batman .content {
-    padding: 0px; }
+.map {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative; }
 
-  .batman {
-    padding: 0px;
-    padding-bottom: 20px; }
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
 
-  .batman p {
-    font-size: 0.9em; }
-
-  .batman h2 {
-    font-size: 1.5em;
-    font-weight: 300;
-    margin: 0.7em 0 0.4em; } }
 /**
  * Syntax highlighting styles
  */
@@ -6912,6 +6915,7 @@ button.close {
 
   /* ... and give them some better margins */
   .container .content {
+    padding-top: 35px;
     margin-left: 10px;
     margin-right: 10px; }
 
