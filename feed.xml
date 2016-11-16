@@ -6,9 +6,9 @@
 </description>
     <link>http://buildata.net/</link>
     <atom:link href="http://buildata.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Oct 2016 09:25:20 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Oct 2016 09:25:20 +0000</lastBuildDate>
-    <generator>Jekyll v3.3.0</generator>
+    <pubDate>Wed, 16 Nov 2016 13:02:53 +0000</pubDate>
+    <lastBuildDate>Wed, 16 Nov 2016 13:02:53 +0000</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>Reactjs</title>
